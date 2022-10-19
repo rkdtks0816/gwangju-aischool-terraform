@@ -1,3 +1,7 @@
+bucket = "songsong0816"
+key = "dev/apne2/network/vpc/terraform.tfstate"
+max_retries = 3
+
 env    = "dev"
 name   = "dev"
 owner  = "song"
