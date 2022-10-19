@@ -1,3 +1,7 @@
+variable "bucket" {}
+variable "key" {}
+variable "max_retries" {}
+
 variable "env" {}
 variable "name" {}
 variable "owner" {}
