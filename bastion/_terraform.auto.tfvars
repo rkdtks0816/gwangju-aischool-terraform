@@ -1,6 +1,6 @@
 env   = "dev"
 name  = "bastion"
-owner = "taepark"
+owner = "song"
 tags  = {}
 
 # AMI
@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "GJ-project"
+key_name      = "song"
 
 # ssh sg
 ssh_sg_description      = "SSH Security group for Bastion EC2 instance"
