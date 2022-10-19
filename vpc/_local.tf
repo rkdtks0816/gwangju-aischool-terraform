@@ -1,4 +1,8 @@
 locals {
+  bucket = var.bucket
+  key = var.key
+  max_retries = var.max_retries
+  
   region = var.region
 
   name = var.name
