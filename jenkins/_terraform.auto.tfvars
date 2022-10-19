@@ -1,6 +1,6 @@
 env   = "dev"
 name  = "jenkins"
-owner = "taepark"
+owner = "song"
 tags  = {}
 
 # AMI
@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "GJ-project"
+key_name      = "song"
 private_ip    = "10.0.1.140"
 
 # iam
